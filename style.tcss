@@ -1,0 +1,84 @@
+Screen {
+    background: #0b0b1a;
+    color: #e6e6f5;
+}
+
+Header {
+    background: #12122a;
+    color: #a78bfa;
+}
+
+Footer {
+    background: #12122a;
+}
+
+.panel, #search-bar {
+    background: #12122a;
+    border: round #3b3b6b;
+    border-title-color: #a78bfa;
+    padding: 0 1;
+}
+
+#search-bar {
+    height: 3;
+    margin: 0 1;
+}
+
+#keywords {
+    width: 1fr;
+    border: none;
+    height: 1;
+    background: #12122a;
+    color: #e6e6f5;
+}
+
+#keywords:focus {
+    background: #1d1d40;
+}
+
+#search-button {
+    border: none;
+    height: 1;
+    min-width: 12;
+    margin-left: 1;
+    background: #6d28d9;
+    color: #ffffff;
+}
+
+#search-button:hover {
+    background: #7c3aed;
+}
+
+#main {
+    height: 1fr;
+    margin: 0 1;
+}
+
+#jobs {
+    width: 3fr;
+    height: 1fr;
+}
+
+#jobs > .option-list--option-highlighted {
+    background: #2e2565;
+    color: #ffffff;
+}
+
+#jobs:focus > .option-list--option-highlighted {
+    background: #6d28d9;
+    color: #ffffff;
+}
+
+#right {
+    width: 2fr;
+}
+
+#details {
+    height: 2fr;
+    color: #60a5fa;
+}
+
+#log {
+    height: 1fr;
+    color: #8888aa;
+}
